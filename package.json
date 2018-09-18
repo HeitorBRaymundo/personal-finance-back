@@ -1,0 +1,27 @@
+{
+  "name": "851",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "rm -rf ./build && mkdir -p ./build && cp -r src package.json yarn.lock ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeitorBRaymundo/851.git"
+  },
+  "author": "Andre S G",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeitorBRaymundo/851/issues"
+  },
+  "homepage": "https://github.com/HeitorBRaymundo/851#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  },
+  "engines": {
+    "node": ">=8.9.1"
+  }
+}
